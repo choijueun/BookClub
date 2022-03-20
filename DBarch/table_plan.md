@@ -1,9 +1,12 @@
 > 회원
-|id|닉네임|비밀번호|연락처|가입일|마지막방문일|
-|---|---|---|---|---|---|
-|PK|unique|비밀번호|연락처|datetime|datetime|
+id		PK & FK
+nickname	UNIQUE
+password	VARCHAR(25)
+url		VARCHAR(100)
+regdate		DATETIME
+pwmodifydate	DATETIME
 
-> 회원아이디 백업
+> 회원ID
 탈퇴해도 이미 사용된 아이디는 사용할 수 없게
-|No|id|
-|---|---|
+No		PK & AUTO INCREASED
+id		UNIQUE
