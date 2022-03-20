@@ -1,14 +1,21 @@
-> 회원
+### 회원ID
+탈퇴해도 이미 사용된 아이디는 사용할 수 없게
+1. No
+    - PK & AUTO INCREASED
+1. id		
+    - UNIQUE
 
-- id		PK & FK
-- nickname	UNIQUE
-- password	VARCHAR(25)
-- url		VARCHAR(100)
-- reg_date		DATETIME
-- pw_modify_date	DATETIME
+### 회원
+1. id		
+    - PK & FK
+1. nickname	
+    - UNIQUE
+1. password	
+    - VARCHAR(25)
+1. url		
+    - VARCHAR(100)
+1. reg_date		
+    - DATETIME
+1. pw_modify_date	
+    - DATETIME
 
-> 회원ID
-
-- 탈퇴해도 이미 사용된 아이디는 사용할 수 없게
-- No		PK & AUTO INCREASED
-- id		UNIQUE
