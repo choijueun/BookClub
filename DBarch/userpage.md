@@ -1,7 +1,7 @@
 ### (user_id)
 회원 개인 페이지 LIST
 1. No
-    - PK & AUTO_INCREASED
+    - PK & AUTO_INCREMENT
     - 일련번호
 1. id
     - FK & UNIQUE
