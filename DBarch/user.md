@@ -14,7 +14,7 @@
     - UNIQUE
 1. password	
     - VARCHAR(25)
-1. url		
+1. url (NULL)
     - VARCHAR(100)
 1. reg_date		
     - DATETIME
